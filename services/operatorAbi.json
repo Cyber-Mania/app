@@ -12,7 +12,7 @@
           },
           {
             "internalType": "address",
-            "name": "_cosmicCowboys",
+            "name": "_cyberMania",
             "type": "address"
           },
           {
@@ -77,10 +77,10 @@
       },
       {
         "inputs": [],
-        "name": "cosmicCowboys",
+        "name": "cyberMania",
         "outputs": [
           {
-            "internalType": "contract CosmicCowboys",
+            "internalType": "contract CyberMania",
             "name": "",
             "type": "address"
           }
