@@ -6,9 +6,6 @@ const provider = new ethers.AlchemyProvider("sepolia", process.env.ALCHEMY_KEY);
 const foodContractAddress = process.env.FOOD_CONTRACT_ADDRESS;
 const suppliesContractAddress = process.env.SUPPLIES_CONTRACT_ADDRESS;
 const currencyContractAddress = process.env.CURRENCY_CONTRACT_ADDRESS;
-  
-// button
-
 
 const wallet = new ethers.Wallet(
   process.env.SERVER_WALLET_PRIVATE_KEY,

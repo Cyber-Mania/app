@@ -29,13 +29,13 @@ export default function Home({ miners }) {
 
   useEffect(() => {
     ;(async () => {
-      const options = { 
-        clientId: 'BENWJvRnAj6hMhhIxifwwm2k8qB08eA4uKSZaE6aZ1gPyWQ5cNQm0g1WO_hEChnGN38w231o4wAOZfiMiVyabNo',
-        web3AuthNetwork: 'mainnet',
+      const options = {
+        clientId: 'BHDEnJ-SY7nlS2PPH2mi98qUINUqGrUYyvUN9EbV794phQXTyRTqMLQGBNgiBeGkWOoGSJrvo-Skf04QzOJIRa0',
+        web3AuthNetwork: 'testnet',
         chainConfig: {
           chainNamespace: CHAIN_NAMESPACES.EIP155,
           chainId: '0x5',
-          rpcTarget: `https://eth-goerli.g.alchemy.com/v2/N0JsuN6vtGzZkmbw64k4kJo5KjDjNWxU`
+          rpcTarget: `https://eth-goerli.g.alchemy.com/v2/5yw4q3nVpsox1Nhnq5o3mmmn7hW3_ut6`
         },
         uiConfig: {
           theme: 'dark',
